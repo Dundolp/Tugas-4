@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5em;
+  background-image: url(1.jpg);
+  box-sizing: border-box;
+}
+.container {
+  padding: 2em;
+  background-color: white;
+}
+
+.grid-container {
+  display: flex;
+  margin-top: 1em;
+}
+.image {
+  display: block;
+
+  margin-left: 5em;
+  margin-right: 3em;
+  margin-top: 2em;
+}
+.profile {
+  text-align: justify;
+
+  margin-right: 8em;
+}
+.categories {
+  margin-left: 5em;
+  margin-right: 1em;
+}
+.categories p {
+  text-align: right;
+}
+a {
+  display: block;
+  color: rgb(172, 94, 94);
+  text-decoration: none;
+  margin-top: 5px;
+}
+a:hover {
+  color: rgb(73, 133, 245);
+}
+.main {
+  margin-top: 3em;
+  text-align: justify;
+}
+.img {
+  display: flex;
+  margin-top: 2em;
+  margin-left: 1em;
+  box-sizing: border-box;
+}
+.satu {
+  border-radius: 100%;
+  border: 2px solid aqua;
+  margin-right: 2em;
+}
+.content {
+  margin-top: 3em;
+}
+.projek {
+  display: flex;
+}
+.gambar {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+.fas {
+  margin-top: 2em;
+}
+.dok {
+  margin-top: 2em;
+}
+table {
+  border-collapse: collapse;
+}
+table tr td {
+  padding-top: 10px;
+}
